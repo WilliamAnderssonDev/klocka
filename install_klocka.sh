@@ -37,7 +37,7 @@ sudo chmod +x klockakod.py
 echo "🛠️ Skapar systemd-tjänst klockaskript.service (körs som root)..."
 cat <<EOF | sudo tee /etc/systemd/system/klockaskript.service
 [Unit]
-Description=Starta klocka-script vid uppstart (väntar på nätverk)
+Description=Starta klocka-script vid uppstart (wait for network)
 After=network-online.target
 Wants=network-online.target
 
