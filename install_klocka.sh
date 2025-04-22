@@ -5,7 +5,7 @@ echo "🕒 INSTALLATIONSSKRIPT FÖR KLOCKA (Raspberry Pi)"
 echo "==============================================="
 echo ""
 echo "Detta skript kommer att:"
-echo " - Uppdatera systemet (kan ta en stund...)"
+echo " - Uppdatera libraries"
 echo " - Installera Python och nödvändiga bibliotek"
 echo " - Ladda ner senaste koden från GitHub"
 echo " - Skapa en systemd-tjänst som kör koden automatiskt vid uppstart"
@@ -17,7 +17,7 @@ echo ""
 read -p "Tryck [Enter] för att fortsätta eller [Ctrl+C] för att avbryta..."
 
 echo ""
-echo "🔧 Uppdaterar systemet (detta kan ta några minuter)..."
+echo "🔧 Uppdaterar libraries"
 sudo apt update
 
 echo "🐍 Installerar Python och nödvändiga paket..."
