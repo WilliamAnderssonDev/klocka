@@ -18,7 +18,7 @@ read -p "Tryck [Enter] för att fortsätta eller [Ctrl+C] för att avbryta..."
 
 echo ""
 echo "🔧 Uppdaterar systemet (detta kan ta några minuter)..."
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 
 echo "🐍 Installerar Python och nödvändiga paket..."
 sudo apt install -y python3 python3-pip python3-gpiozero curl
